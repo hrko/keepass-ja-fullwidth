@@ -1,5 +1,5 @@
 # keepass-ja-fullwidth
-KeePass 2.x の日本語化ファイルの半角カナを全角カナに置換するPythonスクリプト
+KeePass 2.x の日本語化ファイルの半角カナを全角カナに置換する Python スクリプト
 
 # ダウンロード
 [Releases](https://github.com/hrko/keepass-ja-fullwidth/releases) から変換済みの .lngx ファイルをダウンロードできます。
@@ -20,4 +20,6 @@ $ ls
 convert.ipynb  convert.py  Japanese-2.49-FullWidth.lngx  LICENSE  README.md
 ```
 
+# Thanks
+KeePass のアップデートの度に最新版の日本語化ファイルを作成してくださる [Hiroki Matsumoto](https://sourceforge.net/u/matsumo/profile/) 氏に感謝 🙇‍♂️
 
