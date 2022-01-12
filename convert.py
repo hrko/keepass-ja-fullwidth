@@ -8,8 +8,8 @@ import uuid
 import datetime
 import sys
 
-keepass_version = float(sys.argv[1])
-url = f"https://downloads.sourceforge.net/keepass/KeePass-{keepass_version}-Japanese.zip"
+keepass_version = sys.argv[1]
+url = f"https://downloads.sourceforge.net/project/keepass/Translations%202.x/{keepass_version}/KeePass-{keepass_version}-Japanese.zip"
 
 zip_bytes = requests.get(url).content
 with zipfile.ZipFile(io.BytesIO(zip_bytes)) as tmp:
